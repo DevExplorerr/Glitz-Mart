@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  carousel_slider: ^4.2.1   
+  carousel_slider: ^5.1.2   
   firebase_core: any
   firebase_auth: any
   cloud_firestore: any
@@ -29,6 +29,7 @@ dependencies:
   flutter_credit_card: ^4.1.0
 
 dev_dependencies:
+  flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
   flutter_launcher_icons: ^0.14.1
@@ -37,8 +38,6 @@ flutter_launcher_icons:
   android: "launcher_icon" 
   ios: true
   image_path: "assets/appicon.png"    
-
-  flutter_lints: ^3.0.0
 
 flutter:
 

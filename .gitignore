@@ -41,3 +41,36 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.local
+*.secret
+*.secrets
+*.credentials
+*.credentials.json
+secrets/
+credentials/
+
+# Signing keys and certificates
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.crt
+/android/key.properties
+
+# Firebase and generated service configuration
+/android/app/google-services.json
+/ios/Runner/GoogleService-Info.plist
+/lib/firebase_options.dart
+firebase-adminsdk-*.json
+
+# Local editor and tool configuration
+.vscode/
+devtools_options.yaml
